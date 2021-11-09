@@ -1,0 +1,15 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+index_front_dashboard:
+    path: /dashboard
+    controller: App\Controller\DashboardController::index
+
+form_login:
+    path: /user/create
+    controller: App\Controller\UserController::create
+
+form_logout:
+    path: /user
+    controller: App\Controller\UserController::index
