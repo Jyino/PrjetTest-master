@@ -13,3 +13,11 @@ form_login:
 form_logout:
     path: /user
     controller: App\Controller\UserController::index
+
+account_register:
+    path:     /register
+    defaults: { _controller: AcmeAccountBundle:Account:register }
+
+account_create:
+    path:     /register/create
+    defaults: { _controller: AcmeAccountBundle:Account:create }
