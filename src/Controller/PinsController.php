@@ -16,7 +16,7 @@ class PinsController extends AbstractController
     {
         $pin = new Pin; 
 
-        dd($pin);
+        
          
 
 

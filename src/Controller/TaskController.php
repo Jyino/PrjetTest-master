@@ -14,10 +14,11 @@ use Symfony\Component\HttpFoundation\Request;
 class TaskController extends AbstractController
 {
     
+    
     public function new(Request $request): Response
     {
         /**
-        * @Route("/formulaire_new_generation", name="Formulaire5.3")
+        * @Route("/formulairenew", name="Formulaire5.3")
         */
         $task = new Task();
         $task->setTask('Write a blog post');
